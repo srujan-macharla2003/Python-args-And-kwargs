@@ -15,6 +15,8 @@
 # The values passed as keyword arguments are collected into a dictionary.
 
 
+###  args
+
 def sum(*args):
     sum = 0
     for i in args:
@@ -23,6 +25,8 @@ def sum(*args):
 
 
 sum(1, 3, 5)
+
+### kwargs
 
 
 def calculate(n, **kwargs):
